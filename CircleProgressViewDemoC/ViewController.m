@@ -16,6 +16,10 @@
 
 @implementation ViewController
 
+-(void)viewWillDisappear:(BOOL)animated{
+    NSLog(@"更改了");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
